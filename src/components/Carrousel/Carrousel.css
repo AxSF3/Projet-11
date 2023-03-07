@@ -10,6 +10,7 @@
     position: absolute;
     width: 45px;
     z-index: 1;
+    visibility: visible;
 }
 .fleche:hover {
     cursor: pointer;
@@ -37,6 +38,11 @@
 }
 .carrousel-img.actif {
     display: block;
+}
+
+.imgNumber {
+    text-align: center;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 1490px) {
