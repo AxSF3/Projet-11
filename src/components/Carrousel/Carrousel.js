@@ -48,7 +48,7 @@ function Carrousel({ images }) {
             );
         })}
 
-        <div className="imgNumber"> {imgAfficher + 1} / {nombreImg} </div>
+        
         
         </div>
         
